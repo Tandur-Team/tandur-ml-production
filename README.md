@@ -46,13 +46,13 @@ docker run -p 8500:8500 -p 8501:8501  -t plant-model --model_config_file=/models
 - ``` plant-name ```  : Use the same plant name as the folder name in the plant-model folder (e.g model-Padi)
 
 ## Test The Application
-### 1. Run The Application
+#### 1. Run The Application
 ```bash
 docker run -p 8500:8500 -p 8501:8501  -t plant-model --model_config_file=/models/plant-model/models.config
 ```
-### 2. Open POSTMAN
-### 3. Set The API endopoint and the method
-### 4. Request body needed to be able to run predictions
+#### 2. Open POSTMAN
+#### 3. Set The API endopoint and the method
+#### 4. Request body needed to be able to run predictions
 ```JSON
 {
     "instances": [
@@ -64,5 +64,5 @@ docker run -p 8500:8500 -p 8501:8501  -t plant-model --model_config_file=/models
     ]
 }
 ```
-### 5. Click SEND
-### 6. You should get a JSON response
+#### 5. Click SEND
+#### 6. You should get a JSON response
